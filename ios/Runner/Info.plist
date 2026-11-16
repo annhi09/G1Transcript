@@ -30,10 +30,18 @@
 	<string>This app needs Bluetooth access to connect to your smart glasses.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Permission to pick image from photo library</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>This application requires continuous microphone access to stream captions live to your Even Realities Smart Glasses.</string>
 	<key>NSSpeechRecognitionUsageDescription</key>
-	<string>The speech inquiry feature requires converting voice content to text and then returning the result to the device.</string>
+	<string>This application uses speech recognition to generate textual transcripts for head-up displays.</string>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+		<string>bluetooth-central</string>
+		<string>processing</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

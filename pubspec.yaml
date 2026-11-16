@@ -43,7 +43,18 @@ dependencies:
   # crc
   crclib: ^3.0.0
   # Toast - https://pub.dev/packages/fluttertoast
-  fluttertoast: ^8.2.8
+  fluttertoast: ^8.2.12
+  speech_to_text: ^7.3.0
+  diacritic: ^0.1.6
+  provider: ^6.1.5+1
+  permission_handler: ^12.0.1
+
+  # Native Background Execution Guard (keeps service loop running while phone sleeps)
+  flutter_background_service: ^5.0.5
+
+  # Explicit Shared Caching Layer for fast recovery when the app resumes
+  shared_preferences: ^2.2.3
+
 
 
 dev_dependencies:
